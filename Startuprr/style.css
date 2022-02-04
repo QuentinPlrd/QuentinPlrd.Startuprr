@@ -1,0 +1,597 @@
+@font-face { 
+    font-family:'raleway'Ò;
+    src: url(font/Raleway-2/Raleway-Italic-VariableFont_wght.ttf);
+}
+body{
+    font-family: 'raleway';
+    margin: 0 auto;
+    padding: 0 auto;
+}
+h1, h2, h3, h4{
+    margin: 0;
+    line-height: 1.4;
+}
+p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #7A7A7A;   
+    margin: 0;
+    text-transform: uppercase;
+
+}
+.home{
+    background-color: #8a8a8a;
+    padding-top: 10em;
+    padding-right: 35%;
+    padding-bottom: 150px;
+    text-align: center;
+
+}
+.home p{
+    color: #383838;
+    margin-bottom: -10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.home h1{
+    color: #383838;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: -8px;
+
+}
+.home>h3{
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+    background: #333333;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.firstletter{
+    color: #00a99d
+}
+
+.next{
+    font-weight: 200;
+}
+.slogan{
+    text-align: center;
+    color: #383838;
+}
+.slogan>h3{
+    margin: 15px, Opx; 
+    font-size: 25px;
+    font-weight: 700px;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+.start {
+    color:#00a99d ;
+}
+.start-DOING-THAT{
+    text-align: center;
+}
+
+.start-DOING-THAT h3{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 800px;
+    margin: 20px 0;
+}
+
+
+/**NAV BAR*/
+
+.navbar{
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #dedede;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+.navbar img{
+    padding-left: 250px;
+    padding-top: 10px;
+}
+.navbar nav{
+    margin: -45px;
+    text-align: right;
+    padding-bottom: 13px;
+    padding-right: 300px;
+}
+
+.navbar nav a{
+    display: inline-block;
+    color: #606060;
+    margin: 0 14px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar nav ul li a{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.navbar nav ul li{
+    display: inline;
+    list-style: none;
+    color: #606060;
+    font-weight: 600;
+}
+
+.loupe img{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 20px;
+    margin-left: 950px;
+
+}
+
+/** WHAT WE OFFER **/
+
+.whatoffer{
+    padding-bottom: 100px;
+    text-decoration: none;
+}
+
+.whatoffer header{
+    text-align: center;
+}
+.whatoffer h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #383838;
+    padding-top: 60px;
+    margin-bottom: 10px;
+}
+.OFFER{
+    color:#00a99d;
+}
+.whatoffer h1::after{
+    content: url("image/flechedroite.png");
+    margin-left: 10px;
+}
+.whatoffer h1::before{
+    content: url("image/flechegauche.png");
+    margin-right: 10px;
+}
+.whatoffer header p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #8a8a8a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.whatoffer div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+.whatoffer div article{
+    width: calc(33.33% - 10px);
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.whatoffer div article h2{
+    font-size: 15px;
+    font-weight: bold;
+    color: #606060;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.whatoffer div article p{
+    text-transform: initial;
+    font-size: 14px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.whatoffer div article h3{
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 0px 95px
+}
+.whatoffer div article span h3{
+    background-color: #00a99d;
+    color: #FFF;
+    border: 1px solid #00a99d;
+    padding: 10px;
+}
+
+.whatoffer a{
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #606060;
+    border: 1px solid #999999;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+/** AMAZING FEATURES **/ 
+
+.clef{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+.amazingfeatures{
+    background-color: #383838;
+}
+.amazingfeatures header{
+    text-align: center;
+}
+.amazingfeatures header h1{
+    font-size: 26px;
+    color: #e4e4e4;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.features{
+    color: #00a99d;
+}
+.amazingfeatures header h1::after{
+    content: url("image/flechedroite.png");
+    margin-left: 10px;
+}
+.amazingfeatures header h1::before{
+    content: url("image/flechegauche.png");
+    margin-right: 10px;
+}
+.tablette{
+    float: right;  
+}
+.amazingfeatures header p{
+    font-size: 15px;
+    color: #606060;
+    padding-bottom: 30px;
+}
+.article div{
+    display: flex;
+    padding-left: 60px;
+    padding-left: 180px;
+    padding-top: 10px;
+    height: 644px;   
+}
+.services article{
+    margin-bottom: 10px;
+    padding-top: 13px;
+}
+
+.services article h2{
+    font-size: 15px;
+    color: #e4e4e4;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+    text-align: left;
+}
+.services article img{
+    float: left;
+    padding-top: 50px;
+    padding-left: 200px;;
+    padding-right: 20px;
+}
+
+.services article p{
+    font-size: 14px;
+    text-align: left;
+    color: #7A7A7A;
+    font-weight: 400;
+    padding-left: 70px;
+    text-transform:initial;
+}
+
+
+/** 6 SERVICES **/
+
+.cases{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 52px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.cases h2{
+    font-size: 15px;
+    font-weight: 700;
+    color: #606060;
+    margin-bottom: 5px;
+    padding-left: 70px;  
+}
+.cases h3{
+    font-size: 14px;
+    font-weight: 300;
+    color: #aaaaaa;
+    padding-bottom: 12px;
+    padding-left: 70px; 
+}
+.cases p{
+    font-size: 14px;
+    font-weight: initial;
+    color: #8f8f8f;
+    text-transform: initial;
+    padding-left: 60px;
+    line-height: 20px;
+    padding-left: 70px;
+}
+#casegrise{
+    margin-left: 60px;
+}
+
+.cases img{
+    margin-top: 0px;
+}
+
+
+
+/**OUR POWERFUL SKILLS**/
+
+
+
+.saccoche{
+    width: 40px;
+    height: 40px;
+    margin-left: 48.5%;
+}
+
+.powerfulskills{
+    background-color: #383838;
+    height: 400px;
+}
+
+.powerfulskills h1{
+    font-size: 25px;
+    color: #e4e4e4;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+}
+.skills{
+    color: #00a99d;
+}
+.powerfulskills h1::after{
+    content: url("image/flechedroite.png");
+    margin-left: 10px;
+}
+.powerfulskills h1::before{
+    content: url("image/flechegauche.png");
+    margin-right: 15px;
+}
+
+.powerfulskills header p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #606060;
+    text-align: center;
+    padding-top: 10px;
+}
+.pourcentages{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 50px;
+}
+.pourcentages img{
+    position: absolute;
+    margin-left: 45px;
+    padding-bottom: 50px;
+
+}
+.pourcentages h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #e4e4e4;
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.pourcent4 h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #e4e4e4;
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+#symbole{
+    font-size: 15px;
+}
+.pourcentages h3{
+    color: #e4e4e4;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top:  150px;
+    margin-right: 30px;
+}
+
+
+/**SAMPLES WORKS**/
+
+.work header h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #383838;
+    text-align: center;
+    margin-top: 60px;
+}
+#works{
+    color:#00a99d  ;
+}
+.work h1::after{
+    content: url("image/flechedroite.png");
+    margin-left: 10px;
+}
+.work h1::before{
+    content: url("image/flechegauche.png");
+    margin-right: 10px;
+}
+.work header p{ 
+    font-size: 15px;
+    font-weight: 400;
+    color: #8a8a8a;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    text-transform: initial;
+
+}
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+.portfolio img{
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.view{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+.view h2{
+    font-size: 15px;
+    color: #fff;
+    background-color:#00a99d ;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 375px;
+}
+/**COMPAGNY FACTS**/
+.companyfacts>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 48.5%;
+
+}
+.companyfacts{
+    background-color: #383838;
+    height: 380px;
+}
+
+.companyfacts header h1{
+   font-size: 25px;
+   color: #fff;
+   font-weight: 600;
+   text-align: center;
+   padding-top: 15px;
+   padding-bottom: 10px;
+}
+#facts{
+    color:#00a99d  ;
+}
+.companyfacts header h1::after{
+    content: url("image/flechedroite.png");
+    margin-left: 10px;
+}
+.companyfacts header h1::before{
+    content: url("image/flechegauche.png");
+    margin-right: 10px;
+}
+
+.companyfacts header p{
+    font-size: 15px;
+    color: #606060;
+    font-weight: normal;
+    text-transform: initial;
+    text-align: center;
+
+}
+.chiffres h1{
+    color: #e4e4e4;
+    font-size: 70px;
+    font-weight: 400;
+}
+.chiffres p{
+    font-size: 15px;
+    color: #606060;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#month{
+    font-size: 10px;
+}
+
+.chiffres{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+.chiffre1 h1::after{
+    content: url("image/losangegris.png");
+    margin-left: 8px;
+    margin-top: 30px;
+}
+.chiffre3 h1::after{
+    content: url("image/losangegris.png");
+    margin-left: 8px;
+    margin-top: 30px;
+}
+.chiffre4 h1::after{
+    content: url("image/losangegris.png");
+    margin-left: 8px;
+    margin-top: 30px;
+}
+.chiffre1 h1::before{
+    content: url("image/losangegris.png");
+    margin-right: 8px;
+}
+.chiffre3 h1::before{
+    content: url("image/losangegris.png");
+    margin-right: 8px;
+}
+.chiffre4 h1::before{
+    content: url("image/losangegris.png");
+    margin-right: 8px;
+}
+.chiffre2 h1::after{
+    content: url("image/losangebleu.png");
+    margin-left: 8px;
+}
+.chiffre2 h1::before{
+    content: url("image/losangebleu.png");
+    margin-right: 8px;
+}
+
